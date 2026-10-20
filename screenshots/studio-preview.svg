@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <style>
+      .app-bg { fill: #090d16; }
+      .header-bg { fill: #111726; stroke: #263554; stroke-width: 1; }
+      .panel-bg { fill: #111726; stroke: #263554; stroke-width: 1; }
+      .card-bg { fill: #182238; stroke: #263554; stroke-width: 1; rx: 8; }
+      .input-bg { fill: #0b101d; stroke: #263554; stroke-width: 1; rx: 4; }
+      .head-txt { font-family: sans-serif; font-size: 17px; font-weight: 800; fill: #f1f5f9; }
+      .sec-txt { font-family: sans-serif; font-size: 11px; font-weight: 700; fill: #f59e0b; text-transform: uppercase; letter-spacing: 0.5px; }
+      .lbl-txt { font-family: sans-serif; font-size: 11px; font-weight: 600; fill: #94a3b8; }
+      .val-txt { font-family: sans-serif; font-size: 12px; fill: #f1f5f9; }
+      .btn-orange { fill: #ea580c; rx: 6; }
+      .btn-gray { fill: #182238; stroke: #263554; stroke-width: 1; rx: 6; }
+      .btn-txt { font-family: sans-serif; font-size: 12px; font-weight: 700; fill: #ffffff; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect class="app-bg" width="1200" height="750" />
+
+  <!-- Header -->
+  <rect class="header-bg" x="0" y="0" width="1200" height="60" />
+  <rect fill="#ea580c" x="20" y="14" width="32" height="32" rx="6" />
+  <text font-family="sans-serif" font-size="16" font-weight="900" fill="#fff" x="29" y="36">★</text>
+  <text class="head-txt" x="65" y="36">ReviewBoost Pro</text>
+  <rect fill="rgba(245, 158, 11, 0.15)" x="215" y="20" width="55" height="20" rx="4" />
+  <text font-family="sans-serif" font-size="11" font-weight="700" fill="#fbbf24" x="226" y="34">v1.0.0</text>
+
+  <!-- Header Actions -->
+  <g transform="translate(680, 14)">
+    <rect class="input-bg" x="0" y="0" width="190" height="32" />
+    <text class="val-txt" x="12" y="21">Dubai Aesthetic Clinic (Bilingual)</text>
+    <rect class="btn-gray" x="200" y="0" width="90" height="32" />
+    <text class="btn-txt" x="245" y="20">Export SVG</text>
+    <rect class="btn-orange" x="300" y="0" width="190" height="32" />
+    <text class="btn-txt" x="395" y="20">Print Counter Stand</text>
+  </g>
+
+  <!-- Left Sidebar Controls -->
+  <rect class="panel-bg" x="0" y="60" width="460" height="690" />
+  <g transform="translate(20, 80)">
+    <!-- Business Profile -->
+    <rect class="card-bg" x="0" y="0" width="420" height="150" />
+    <text class="sec-txt" x="15" y="24">Business Profile</text>
+    <text class="lbl-txt" x="15" y="48">Brand / Clinic Name</text>
+    <rect class="input-bg" x="15" y="55" width="390" height="28" />
+    <text class="val-txt" x="25" y="74">Apex Dental &amp; Aesthetics Clinic</text>
+    <text class="lbl-txt" x="15" y="100">Location Tagline</text>
+    <rect class="input-bg" x="15" y="107" width="390" height="28" />
+    <text class="val-txt" x="25" y="126">Dubai Healthcare City • Building 64</text>
+
+    <!-- Platform Settings -->
+    <rect class="card-bg" x="0" y="165" width="420" height="175" />
+    <text class="sec-txt" x="15" y="189">Review Platform &amp; Gating Logic</text>
+    <text class="lbl-txt" x="15" y="212">Review Platform</text>
+    <rect class="input-bg" x="15" y="220" width="185" height="28" />
+    <text class="val-txt" x="25" y="239">Google Business Profile</text>
+
+    <text class="lbl-txt" x="215" y="212">Gating Threshold</text>
+    <rect class="input-bg" x="215" y="220" width="190" height="28" />
+    <text class="val-txt" x="225" y="239">4+ Stars = Public Redirect</text>
+
+    <text class="lbl-txt" x="15" y="265">Direct Google Review URL (Place ID)</text>
+    <rect class="input-bg" x="15" y="272" width="390" height="28" />
+    <text class="val-txt" x="25" y="291">https://search.google.com/local/writereview?placeid=ChIJ-x_Dubai...</text>
+    <text class="lbl-txt" x="15" y="318">Language: English + Arabic (Bilingual UAE Layout)</text>
+
+    <!-- Display Card Copy -->
+    <rect class="card-bg" x="0" y="355" width="420" height="175" />
+    <text class="sec-txt" x="15" y="379">Counter Stand Display Copy</text>
+    <text class="lbl-txt" x="15" y="402">Heading Call-to-Action</text>
+    <rect class="input-bg" x="15" y="410" width="390" height="28" />
+    <text class="val-txt" x="25" y="429">Scan to Rate Your Visit / امسح الرمز للتقييم</text>
+
+    <text class="lbl-txt" x="15" y="455">Reward Promo Code</text>
+    <rect class="input-bg" x="15" y="462" width="185" height="28" />
+    <text class="val-txt" x="25" y="481">CARE15</text>
+    <text class="lbl-txt" x="215" y="455">Customer Benefit</text>
+    <rect class="input-bg" x="215" y="462" width="190" height="28" />
+    <text class="val-txt" x="225" y="481">15% off next session</text>
+  </g>
+
+  <!-- Right Visualizer: Dual Simulator View -->
+  <g transform="translate(480, 80)">
+    <!-- Stand Card Representation -->
+    <rect fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" x="20" y="30" width="310" height="560" rx="14" filter="drop-shadow(0 15px 30px rgba(0,0,0,0.5))" />
+    <rect fill="#0891b2" x="150" y="60" width="40" height="40" rx="8" />
+    <text font-family="sans-serif" font-size="16" font-weight="800" fill="#fff" x="162" y="85">AD</text>
+    <text font-family="sans-serif" font-size="13" font-weight="800" fill="#0f172a" x="170" y="120" text-anchor="middle">Apex Dental &amp; Aesthetics</text>
+    <text font-family="sans-serif" font-size="10" fill="#64748b" x="170" y="136" text-anchor="middle">Dubai Healthcare City</text>
+    <text font-family="sans-serif" font-size="18" fill="#f59e0b" x="170" y="165" text-anchor="middle">★★★★★</text>
+
+    <!-- Mini QR -->
+    <rect fill="#f8fafc" stroke="#cbd5e1" x="90" y="180" width="160" height="160" rx="8" />
+    <text font-family="sans-serif" font-size="11" font-weight="700" fill="#0f172a" x="170" y="265" text-anchor="middle">[QR CODE MATRIX]</text>
+
+    <text font-family="sans-serif" font-size="12" font-weight="800" fill="#0f172a" x="170" y="375" text-anchor="middle">Scan to Rate Your Visit</text>
+    <rect fill="#fffbeb" stroke="#fde68a" x="40" y="420" width="260" height="30" rx="6" />
+    <text font-family="sans-serif" font-size="9.5" font-weight="700" fill="#b45309" x="170" y="439" text-anchor="middle">★ Code CARE15: 15% off next visit</text>
+
+    <!-- iPhone Mobile Funnel Representation -->
+    <g transform="translate(370, 0)">
+      <rect fill="#1e293b" x="0" y="10" width="310" height="600" rx="34" />
+      <rect fill="#ffffff" x="8" y="18" width="294" height="584" rx="28" />
+      <rect fill="#1e293b" x="90" y="18" width="130" height="18" rx="8" />
+
+      <!-- Mobile Content -->
+      <rect fill="#0891b2" x="135" y="65" width="40" height="40" rx="8" />
+      <text font-family="sans-serif" font-size="15" font-weight="800" fill="#fff" x="148" y="90">AD</text>
+      <text font-family="sans-serif" font-size="14" font-weight="800" fill="#0f172a" x="155" y="125" text-anchor="middle">Apex Dental &amp; Aesthetics</text>
+      <text font-family="sans-serif" font-size="12" font-weight="700" fill="#0f172a" x="155" y="160" text-anchor="middle">How was your experience today?</text>
+
+      <!-- 5 Interactive Star Buttons -->
+      <g transform="translate(27, 185)">
+        <rect fill="#fffbeb" stroke="#f59e0b" x="0" y="0" width="42" height="42" rx="6" />
+        <text font-family="sans-serif" font-size="18" fill="#f59e0b" x="13" y="27">★</text>
+        <rect fill="#fffbeb" stroke="#f59e0b" x="50" y="0" width="42" height="42" rx="6" />
+        <text font-family="sans-serif" font-size="18" fill="#f59e0b" x="63" y="27">★</text>
+        <rect fill="#fffbeb" stroke="#f59e0b" x="100" y="0" width="42" height="42" rx="6" />
+        <text font-family="sans-serif" font-size="18" fill="#f59e0b" x="113" y="27">★</text>
+        <rect fill="#fffbeb" stroke="#f59e0b" x="150" y="0" width="42" height="42" rx="6" />
+        <text font-family="sans-serif" font-size="18" fill="#f59e0b" x="163" y="27">★</text>
+        <rect fill="#fffbeb" stroke="#f59e0b" x="200" y="0" width="42" height="42" rx="6" />
+        <text font-family="sans-serif" font-size="18" fill="#f59e0b" x="213" y="27">★</text>
+      </g>
+
+      <!-- Positive Route Preview (Green Card) -->
+      <rect fill="#f0fdf4" stroke="#bbf7d0" x="25" y="250" width="245" height="150" rx="10" />
+      <text font-family="sans-serif" font-size="22" x="145" y="285" text-anchor="middle">🎉</text>
+      <text font-family="sans-serif" font-size="12" font-weight="800" fill="#15803d" x="145" y="310" text-anchor="middle">Thank You So Much!</text>
+      <text font-family="sans-serif" font-size="9" fill="#15803d" x="145" y="330" text-anchor="middle">Please take 30s to post on Google</text>
+      <rect fill="#0891b2" x="45" y="350" width="205" height="32" rx="6" />
+      <text font-family="sans-serif" font-size="11" font-weight="700" fill="#fff" x="148" y="370" text-anchor="middle">Leave Review on Google</text>
+    </g>
+  </g>
+</svg>

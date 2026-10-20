@@ -1,0 +1,16 @@
+{
+  "businessName": "The Copper Kettle & Craft Bar",
+  "tagline": "Dean Street, Soho, London W1D 3SG",
+  "logoText": "CK",
+  "platform": "tripadvisor",
+  "reviewUrl": "https://www.tripadvisor.com/UserReview-TheCopperKettleSohoDemo",
+  "ratingThreshold": 4,
+  "rewardCode": "DESSERT",
+  "rewardText": "Show this to your server for a complimentary artisan dessert or coffee!",
+  "cardCta": "Loved Your Meal? Scan to Review",
+  "cardSubtext": "Tell us how we did and claim a complimentary treat on your table.",
+  "language": "en",
+  "primaryColor": "#b45309",
+  "accentColor": "#d97706",
+  "cardSize": "4x6"
+}

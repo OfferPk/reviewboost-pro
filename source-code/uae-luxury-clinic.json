@@ -1,0 +1,16 @@
+{
+  "businessName": "Apex Dental & Aesthetics Clinic",
+  "tagline": "Dubai Healthcare City • Building 64",
+  "logoText": "AD",
+  "platform": "google",
+  "reviewUrl": "https://search.google.com/local/writereview?placeid=ChIJ-x_DubaiHealthcareCityDemo",
+  "ratingThreshold": 4,
+  "rewardCode": "CARE15",
+  "rewardText": "Show your screen at reception to receive 15% off your next session.",
+  "cardCta": "Scan to Rate Your Visit / امسح الرمز للتقييم",
+  "cardSubtext": "Your feedback helps us deliver world-class patient care.",
+  "language": "en",
+  "primaryColor": "#0891b2",
+  "accentColor": "#0e7490",
+  "cardSize": "5x7"
+}

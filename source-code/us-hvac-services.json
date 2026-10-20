@@ -1,0 +1,16 @@
+{
+  "businessName": "Lone Star Pro Heating & Air",
+  "tagline": "Austin & Central Texas Certified Technicians",
+  "logoText": "LS",
+  "platform": "google",
+  "reviewUrl": "https://search.google.com/local/writereview?placeid=ChIJLoneStarHVACAustinDemo",
+  "ratingThreshold": 4,
+  "rewardCode": "FILTER25",
+  "rewardText": "$25 credit toward your next seasonal AC tune-up or filter replacement.",
+  "cardCta": "How Did Your Technician Do Today?",
+  "cardSubtext": "Scan with any smartphone camera to rate our service in 10 seconds.",
+  "language": "en",
+  "primaryColor": "#1d4ed8",
+  "accentColor": "#2563eb",
+  "cardSize": "4x6"
+}
